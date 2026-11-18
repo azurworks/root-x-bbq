@@ -212,6 +212,16 @@ section{padding-block:var(--pad)}
 .tags span{border:1px solid var(--line);border-radius:999px;padding:3px 14px;font-size:13px;color:var(--sub);white-space:nowrap}
 @media(max-width:820px){.stays{grid-template-columns:minmax(0,1fr);gap:44px}}
 
+/* ===== 次の季節（冬の鍋） ===== */
+.next{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:center}
+.next .ph{aspect-ratio:4/3}
+.next .cap{display:block;margin-bottom:12px}
+.next h2{font-size:clamp(26px,3vw,40px);line-height:1.45;margin-bottom:18px}
+.next p{color:var(--sub)}
+.next p+p{margin-top:12px}
+.next .note{font-size:14px}
+@media(max-width:820px){.next{grid-template-columns:minmax(0,1fr)}}
+
 /* ===== 06 料金 ===== */
 .plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .plan{background:var(--base);border-radius:var(--r);padding:clamp(26px,3vw,40px);display:flex;flex-direction:column}
@@ -774,6 +784,19 @@ p, li, dd, td { text-wrap: pretty; }
         <summary>11月からの&#8203;狩猟シーズンも&#8203;参加できますか？</summary>
         <div class="a">11月から&#8203;猟期が&#8203;始まります。&#8203;狩猟を含む&#8203;ツアーは現在&#8203;準備中です。&#8203;ご案内を&#8203;ご希望の方は、&#8203;申込みフォームの&#8203;備考欄に&#8203;「狩猟ツアーの&#8203;案内希望」と&#8203;ご記入ください。</div>
       </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 次の季節（2026-11-18 オーナー指示・写真はオーナー提供） ============ -->
+<section class="soft" id="winter">
+  <div class="wrap next">
+    <div class="ph"><img src="img/winter-nabe.jpg" alt="炭火にかけた鉄鍋で煮える猪肉と野菜の鍋（イメージ写真）" loading="lazy" width="1280" height="960"><span class="im">イメージ</span></div>
+    <div>
+      <span class="cap"><b>Next Season</b>From December</span>
+      <h2>12月からは、冬の&#8203;ジビエ鍋。</h2>
+      <p>BBQ は11月末まで。&#8203;12月からは、山で&#8203;獲れた猪の&#8203;ぼたん鍋を&#8203;ご案内する&#8203;予定です。</p>
+      <p class="note">日程・料金は&#8203;決まりしだい&#8203;お知らせします。&#8203;ご案内を&#8203;ご希望の方は、&#8203;申込みフォームの&#8203;備考欄に「冬の鍋の&#8203;案内希望」と&#8203;ご記入ください。</p>
     </div>
   </div>
 </section>
